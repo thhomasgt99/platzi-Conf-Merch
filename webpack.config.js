@@ -7,6 +7,7 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'bundle.js',
+    publicPath: '/' //porque ruta arranca
   },
   resolve: {
     extensions: ['.js', '.jsx'], //extenciones a tratar
@@ -63,6 +64,7 @@ module.exports = {
   devServer: {
     static: path.join(__dirname, 'dist'),
     compress: true, //comprimir
+    historyApiFallback: true, //permite acceder a las rutas por la url arparecer
     port: 3005,
     open: true,
   },

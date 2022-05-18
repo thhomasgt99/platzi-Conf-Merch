@@ -3,6 +3,7 @@
 ## Dependencias de desarrollo
 - react            	 			-> Instala react
 - react-dom        	 			-> Instala react dom
+- react-router-dom        -> Dependencia para manejo de rutas en la aplicacion
 - webpack									-> wepack
 - webpack-cli        			-> 
 - webpack-dev-server 			-> Servidor de desarrollo
