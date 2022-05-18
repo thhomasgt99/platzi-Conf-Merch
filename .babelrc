@@ -1,0 +1,6 @@
+{ //Este archivo llevara las configuracones para babel que despues seran utilizadas por babel desde webpack
+	"presets": [ // simplemete se agragan todas las herramientas de babel que se nececites 'presets'
+		"@babel/preset-env", //compila las versiones ecma6 de para adelante alparecer 
+		"@babel/preset-react" //compila	jsx y sintax de react
+	]
+}
