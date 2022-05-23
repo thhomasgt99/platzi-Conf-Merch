@@ -1,11 +1,13 @@
 export default {
   cart: [],
+  buyer:[],
+  orders:[],
   products: [
     {
       'id': '1',
       'image': 'https://arepa.s3.amazonaws.com/camiseta.png',
       'title': 'Camiseta',
-      'price': 25,
+      'price': 250,
       'description': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
     },
     {

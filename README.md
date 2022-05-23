@@ -27,4 +27,7 @@
 - prettier               	-> Pretttier
 - eslint-plugin-prettier 	-> Prettier para eslint
 - eslint-config-prettier 	-> Prettier configuraciones de eslint
-  
+- react-paypal-button-v2  -> Obcion de paypal para crear alparece el boton de envio de datos para pagos
+###### *alparecer este ultimo plugin tambien sirve para pagar en serio pero hay que configurarlo, tendriamos que leer la documentacion*
+- @react-google-maps/api  -> Para integrar google maps al codigo, nececita una APIKey de googleclaud que porcierto es paga y no la tengo.
+- axios                   -> Para manejar mejor las llamadas apis
