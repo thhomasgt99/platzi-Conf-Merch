@@ -31,3 +31,4 @@
 ###### *alparecer este ultimo plugin tambien sirve para pagar en serio pero hay que configurarlo, tendriamos que leer la documentacion*
 - @react-google-maps/api  -> Para integrar google maps al codigo, nececita una APIKey de googleclaud que porcierto es paga y no la tengo.
 - axios                   -> Para manejar mejor las llamadas apis
+- react-helmet            -> Para configurcion de SEO, metadata

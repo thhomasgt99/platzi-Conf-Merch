@@ -1,5 +1,6 @@
 import React, { useContext } from 'react'
 import { Link } from 'react-router-dom' //link hace lo mismo que <a href='/checkout'>, pero con funcionalides extra que podriamos no No necesitar
+import { Helmet } from 'react-helmet'
 import AppContext from '../context/AppContext'
 import '../styles/components/Checkout.css'
 
@@ -18,7 +19,12 @@ const Checkout = () => {
 	}
 
 	return (
-		<div className="Checkout">
+		<React.Fragment>
+			<Helmet>
+				<title>Lista de pedidos - Platzi Conf Merch </title>{/*Cambia la lista de pedidos*/}
+			</Helmet>
+
+			<div className="Checkout">
 			<div className="Checkout-content">
 				{cart.length > 0 ? <h3>Liste de pedidos</h3> : <h3>Sin pedidos...</h3>} {/*if ternario*/}
 				{cart.map((item) => (
@@ -44,6 +50,7 @@ const Checkout = () => {
 			)}
 
 		</div>
+		</React.Fragment>
 	)
 }
 
