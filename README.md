@@ -32,3 +32,4 @@
 - @react-google-maps/api  -> Para integrar google maps al codigo, nececita una APIKey de googleclaud que porcierto es paga y no la tengo.
 - axios                   -> Para manejar mejor las llamadas apis
 - react-helmet            -> Para configurcion de SEO, metadata
+- copy-webpack-plugin     -> Nos ayudará a copiar los archivos de la carpeta /public a la carpeta de nuestro proyecto compilado

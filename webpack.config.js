@@ -1,6 +1,7 @@
 const path = require('path'); //alparecer require es un metodo de node para traer a path
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+const CopyPlugin = require('copy-webpack-plugin');
 
 module.exports = {
   entry: './src/index.js',
@@ -59,6 +60,13 @@ module.exports = {
     }),
     new MiniCssExtractPlugin({
       filename: 'assets/[name].css', //esto pone la regla, al compilar creara un carpeta llamada assets y dentro el css con el nombre por defecto alparecer
+    }),
+    new CopyPlugin({
+      patterns: [
+        { from: './public/manifest.json', to: '' },
+        { from: './public/service-worker.js', to: '' },
+        { from: './public/icon.png', to: 'assets' },
+      ],
     }),
   ],
   devServer: {

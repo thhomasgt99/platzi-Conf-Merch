@@ -21,7 +21,7 @@ const Checkout = () => {
 	return (
 		<React.Fragment>
 			<Helmet>
-				<title>Lista de pedidos - Platzi Conf Merch </title>{/*Cambia la lista de pedidos*/}
+				<title>Lista de pedidos - Platzi Conf Merch </title>{/*Cambia el titulo de pestaña en la vista especifica gracias a que son metas y a helmet*/}
 			</Helmet>
 
 			<div className="Checkout">
