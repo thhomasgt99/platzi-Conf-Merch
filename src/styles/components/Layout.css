@@ -3,13 +3,14 @@
 body {
   margin: 0;
   padding: 0;
-  color: #3c484e;
+  color: #d4d4d4;
   font-family: 'Open Sans', sans-serif;
+  background-color: #29282d;
 }
 
 .Main {
   padding: 10px;
-  grid-template-columns: minmax(auto, 768px);
+  grid-template-columns: minmax(auto, 980px);
   display: grid;
   justify-content: center;
 }

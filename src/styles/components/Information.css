@@ -51,10 +51,10 @@ h3 {
   padding: 0;
 }
 input {
-  background-color: #fff;
+  background-color: rgb(107, 107, 107);
   background-image: none;
   border-radius: 4px;
-  border: 1px solid #d9d9d9;
+  border: none; 
   color: rgba(0,0,0,0.75);
   display: inline-block;
   font-feature-settings: "tnum";
@@ -68,24 +68,28 @@ input {
   width: 100%;
   box-sizing: border-box;
 }
+input::placeholder { color: rgb(227, 223, 223); } 
 .Information-buttons {
   margin: 10px 0 0 ;
 }
+.Information-buttons .Information-back a{
+  color: #fdab73;
+}
 .Information button {
-  box-shadow: inset 0px 1px 0px 0px #bee2f9;
-    background: linear-gradient(to bottom, #63b8ee 5%, #468ccf 100%);
-    background-color: #63b8ee;
+  box-shadow: inset 0px 1px 0px 0px #ebf1f5;
+    background: linear-gradient(to bottom, #fdab73 5%, #fe6c6d 100%);
+    background-color: #fdab73;
     border-radius: 6px;
-    border: 1px solid #3866a3;
+    border: 1px solid #fe6262;
     display: inline-block;
     cursor: pointer;
-    color: #14396a;
+    color: #5c2020;
     font-family: Arial;
     font-size: 15px;
     font-weight: bold;
     padding: 6px 24px;
     text-decoration: none;
-    text-shadow: 0px 1px 0px #7cacde;
+    text-shadow: 0px 1px 0px #f8b182;
     width: 100%;
     display: block;
     outline: none;

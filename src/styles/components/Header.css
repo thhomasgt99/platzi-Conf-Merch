@@ -11,11 +11,12 @@
   margin: 0 0 0 0.5em;
 }
 .Header-alert {
-  color: #33b13a;
+  color: #d6d6d6;
   font-size: 14px;
   margin-left: 5px;
 }
+ /* #fdab73 #fe6c6d */
 .Header a {
   text-decoration: none;
-  color: #33b1ff;
+  color: #fc816b;
 }
