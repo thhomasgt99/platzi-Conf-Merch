@@ -1,7 +1,7 @@
 .Footer {
   display: flex;
   justify-content: space-between;
-  /* background-color: #232227; */
-  background-color: #3200fa;
+  background-color: #232227;
+  /* background-color: #3200fa; */
   padding: 0 2rem 0 2rem;
 }

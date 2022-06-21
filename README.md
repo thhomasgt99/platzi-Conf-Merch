@@ -33,3 +33,5 @@
 - axios                   -> Para manejar mejor las llamadas apis
 - react-helmet            -> Para configurcion de SEO, metadata
 - copy-webpack-plugin     -> Nos ayudará a copiar los archivos de la carpeta /public a la carpeta de nuestro proyecto compilado
+
+##### Para el deploy vamos así: solo tenemos que correr npm run build y despues puashear y listo , tambien no olvidar que la regla para deploy deve estas descomentada '/'
