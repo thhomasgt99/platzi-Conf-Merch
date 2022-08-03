@@ -4,7 +4,7 @@
   background-color: #29282d;
   padding: 5rem;
   text-decoration: none;
-  /* box-shadow: 4px 9px 20px rgba(0, 0, 0, 0.06), 1px 3px 8px rgba(255, 38, 0, 0.03); */
+  grid-row-gap: 3rem;
   border-radius: 5px;
   margin: 0 0 20px 0;
   position: relative;
@@ -48,14 +48,17 @@
 
 .Products-item button {
   background: linear-gradient(to bottom, #fdab73 5%, #fe6c6d 100%);
-  width: 100%;
-  padding: 10px;
-  border-radius: 0px 0px 5px 5px;
+  width: 40%;
+  height: 1.7rem;
+  margin-top: 5px !important;
+  border-radius:5%;
   border: 0px;
   outline: 0;
   cursor: pointer;
   font-size: 14px;
   font-weight: 300;
+  /* margin: 0 auto; */
+  margin-left: 60%;
 }
 
 .Products-item button:hover {
@@ -65,6 +68,8 @@
 .Product-item-info {
   background-color: #29282d;
   padding: .5rem;
+  display: flex;
+  flex-direction: column;
 }
 
 .Product-item-info h2 {
